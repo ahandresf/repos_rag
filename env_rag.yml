@@ -3,7 +3,7 @@ name: env_rag
 channels:
   - anaconda
   - conda-forge
-  - hugginface
+  - huggingface
   - pytorch
   - defaults
 
@@ -11,6 +11,8 @@ dependencies:
   - pip
   - langchain
   - hugginface
+  - python
+  - jupyter
   
   - pip:
     - langchain-community
