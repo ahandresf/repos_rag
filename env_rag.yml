@@ -1,0 +1,18 @@
+name: env_rag
+
+channels:
+  - anaconda
+  - conda-forge
+  - hugginface
+  - pytorch
+  - defaults
+
+dependencies:
+  - pip
+  - langchain
+  - hugginface
+  
+  - pip:
+    - langchain-community
+    - langchain-core
+    - langchain-cli
